@@ -1,4 +1,4 @@
-import CoreGraphics
+import Cocoa
 
 if let windowInfo = CGWindowListCopyWindowInfo(.optionAll, kCGNullWindowID) as? [[ String : Any]] {
     for windowDict in windowInfo {
